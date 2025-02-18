@@ -45,6 +45,7 @@ a {
 .btn:hover {
   background-color: var(--active-btns-color);
 }
+
 .section-title {
   font-family: var(--primary-font);
   color: var(--dark-color);
@@ -62,9 +63,33 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: left;
+}
+.desc {
+  font-family: var(--primary-font);
+  color: var(--primary-txt-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.txt-cntr {
   text-align: center;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /*===============  HEADER SECTION  ===============*/
 .header {
 }
@@ -143,14 +168,7 @@ a {
 }
 .priorities-item {
 }
-.priorities-desc {
-  font-family: var(--primary-font);
-  color: var(--primary-txt-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 /*===============  ABOUT SECTION  ===============*/
 .about {
 }
@@ -170,15 +188,7 @@ a {
 }
 .team-list-img {
 }
-.team-desc {
-  font-family: var(--primary-font);
-  color: var(--primary-txt-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
+
 /*===============  FOOTER  ===============*/
 .footer {
   background-color: var(--dark-color);
@@ -202,4 +212,32 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/*===============================================================*/
+/*========================= Portfolio Page =============================*/
+
+/*===============  Filter buttons  ===============*/
+
+.portfolio {
+}
+.portfolio-filter-list {
+}
+.portfolio-filter-item {
+}
+.btn-filter {
+  background-color: #f4f4fd;
+  color: var(--active-txt-color);
+  padding: 12px 24px;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--light-txt-color);
+  background-color: var(--active-btns-color);
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-list-img {
 }
